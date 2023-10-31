@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(37, 21, 74);
+  background: linear-gradient(
+    90deg,
+    rgba(37, 21, 74, 1) 0%,
+    rgba(92, 92, 159, 1) 42%,
+    rgba(137, 67, 152, 1) 84%,
+    rgba(147, 62, 150, 1) 93%,
+    rgba(154, 58, 149, 1) 100%
+  );
+}
+
+.container {
+  height: 20rem;
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  padding: 1rem;
+}
+
+#area {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid black;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: lighter;
+  background: rgb(214, 215, 226);
+  background: linear-gradient(
+    90deg,
+    rgba(214, 215, 226, 1) 19%,
+    rgba(214, 215, 226, 1) 20%,
+    rgba(178, 171, 195, 1) 89%
+  );
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  /* display: flex and justify-content: space-between are the properties that put both div left and right in one single line */
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+button {
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+  font-size: 1rem;
+  background: rgb(175, 171, 179);
+  background: linear-gradient(
+    90deg,
+    rgba(175, 171, 179, 1) 0%,
+    rgba(247, 230, 234, 1) 100%
+  );
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: large;
+  border-radius: 0.5rem;
+}

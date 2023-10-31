@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="container">
+            <span id="area">Password.....</span>
+            <div class="row">
+                <div class="left">
+                    Password Length
+                </div>
+                <div class="right">
+                    <input type="number" max="20" min="2" value="10" id="max-char">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="left">
+                    Contains UpperCase
+                </div>
+                <div class="right">
+                    <input type="checkbox" id="upper-case">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="left">
+                    Contains LowerCase
+                </div>
+                <div class="right">
+                    <input type="checkbox" id="lower-case">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="left">
+                    Contains Numbers
+                </div>
+                <div class="right">
+                    <input type="checkbox" id="number-case">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="left">
+                    Contains Symbols
+                </div>
+                <div class="right">
+                    <input type="checkbox" id="symbol-case">
+                </div>
+            </div>
+
+            <div class="row">
+                <button id="btn">Generate Password</button>
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
